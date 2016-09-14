@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4AF5B571D8916BE000E3A64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF5B561D8916BE000E3A64 /* main.m */; };
+		F4AF5B5A1D8916BE000E3A64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF5B591D8916BE000E3A64 /* AppDelegate.m */; };
+		F4AF5B5D1D8916BE000E3A64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF5B5C1D8916BE000E3A64 /* ViewController.m */; };
+		F4AF5B601D8916BE000E3A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AF5B5E1D8916BE000E3A64 /* Main.storyboard */; };
+		F4AF5B621D8916BE000E3A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AF5B611D8916BE000E3A64 /* Assets.xcassets */; };
+		F4AF5B651D8916BE000E3A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AF5B631D8916BE000E3A64 /* LaunchScreen.storyboard */; };
+		F4AF5B701D8916BE000E3A64 /* ChangeButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF5B6F1D8916BE000E3A64 /* ChangeButtonTests.m */; };
+		F4AF5B7B1D8916BE000E3A64 /* ChangeButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF5B7A1D8916BE000E3A64 /* ChangeButtonUITests.m */; };
+		F4AF5B8D1D89253A000E3A64 /* UIView+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF5B8C1D89253A000E3A64 /* UIView+Awesome.m */; };
+		F4AF5B911D893367000E3A64 /* JYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF5B901D893367000E3A64 /* JYButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4AF5B6C1D8916BE000E3A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4AF5B4A1D8916BE000E3A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4AF5B511D8916BE000E3A64;
+			remoteInfo = ChangeButton;
+		};
+		F4AF5B771D8916BE000E3A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4AF5B4A1D8916BE000E3A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4AF5B511D8916BE000E3A64;
+			remoteInfo = ChangeButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4AF5B521D8916BE000E3A64 /* ChangeButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4AF5B561D8916BE000E3A64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4AF5B581D8916BE000E3A64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4AF5B591D8916BE000E3A64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4AF5B5B1D8916BE000E3A64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F4AF5B5C1D8916BE000E3A64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4AF5B5F1D8916BE000E3A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4AF5B611D8916BE000E3A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4AF5B641D8916BE000E3A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4AF5B661D8916BE000E3A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4AF5B6B1D8916BE000E3A64 /* ChangeButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4AF5B6F1D8916BE000E3A64 /* ChangeButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeButtonTests.m; sourceTree = "<group>"; };
+		F4AF5B711D8916BE000E3A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4AF5B761D8916BE000E3A64 /* ChangeButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4AF5B7A1D8916BE000E3A64 /* ChangeButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeButtonUITests.m; sourceTree = "<group>"; };
+		F4AF5B7C1D8916BE000E3A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4AF5B8B1D89253A000E3A64 /* UIView+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Awesome.h"; sourceTree = "<group>"; };
+		F4AF5B8C1D89253A000E3A64 /* UIView+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Awesome.m"; sourceTree = "<group>"; };
+		F4AF5B8F1D893367000E3A64 /* JYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYButton.h; sourceTree = "<group>"; };
+		F4AF5B901D893367000E3A64 /* JYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4AF5B4F1D8916BE000E3A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AF5B681D8916BE000E3A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AF5B731D8916BE000E3A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4AF5B491D8916BE000E3A64 = {
+			isa = PBXGroup;
+			children = (
+				F4AF5B541D8916BE000E3A64 /* ChangeButton */,
+				F4AF5B6E1D8916BE000E3A64 /* ChangeButtonTests */,
+				F4AF5B791D8916BE000E3A64 /* ChangeButtonUITests */,
+				F4AF5B531D8916BE000E3A64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4AF5B531D8916BE000E3A64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF5B521D8916BE000E3A64 /* ChangeButton.app */,
+				F4AF5B6B1D8916BE000E3A64 /* ChangeButtonTests.xctest */,
+				F4AF5B761D8916BE000E3A64 /* ChangeButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4AF5B541D8916BE000E3A64 /* ChangeButton */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF5B8E1D893367000E3A64 /* JYButton */,
+				F4AF5B8B1D89253A000E3A64 /* UIView+Awesome.h */,
+				F4AF5B8C1D89253A000E3A64 /* UIView+Awesome.m */,
+				F4AF5B581D8916BE000E3A64 /* AppDelegate.h */,
+				F4AF5B591D8916BE000E3A64 /* AppDelegate.m */,
+				F4AF5B5B1D8916BE000E3A64 /* ViewController.h */,
+				F4AF5B5C1D8916BE000E3A64 /* ViewController.m */,
+				F4AF5B5E1D8916BE000E3A64 /* Main.storyboard */,
+				F4AF5B611D8916BE000E3A64 /* Assets.xcassets */,
+				F4AF5B631D8916BE000E3A64 /* LaunchScreen.storyboard */,
+				F4AF5B661D8916BE000E3A64 /* Info.plist */,
+				F4AF5B551D8916BE000E3A64 /* Supporting Files */,
+			);
+			path = ChangeButton;
+			sourceTree = "<group>";
+		};
+		F4AF5B551D8916BE000E3A64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF5B561D8916BE000E3A64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4AF5B6E1D8916BE000E3A64 /* ChangeButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF5B6F1D8916BE000E3A64 /* ChangeButtonTests.m */,
+				F4AF5B711D8916BE000E3A64 /* Info.plist */,
+			);
+			path = ChangeButtonTests;
+			sourceTree = "<group>";
+		};
+		F4AF5B791D8916BE000E3A64 /* ChangeButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF5B7A1D8916BE000E3A64 /* ChangeButtonUITests.m */,
+				F4AF5B7C1D8916BE000E3A64 /* Info.plist */,
+			);
+			path = ChangeButtonUITests;
+			sourceTree = "<group>";
+		};
+		F4AF5B8E1D893367000E3A64 /* JYButton */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF5B8F1D893367000E3A64 /* JYButton.h */,
+				F4AF5B901D893367000E3A64 /* JYButton.m */,
+			);
+			path = JYButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4AF5B511D8916BE000E3A64 /* ChangeButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4AF5B7F1D8916BE000E3A64 /* Build configuration list for PBXNativeTarget "ChangeButton" */;
+			buildPhases = (
+				F4AF5B4E1D8916BE000E3A64 /* Sources */,
+				F4AF5B4F1D8916BE000E3A64 /* Frameworks */,
+				F4AF5B501D8916BE000E3A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeButton;
+			productName = ChangeButton;
+			productReference = F4AF5B521D8916BE000E3A64 /* ChangeButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4AF5B6A1D8916BE000E3A64 /* ChangeButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4AF5B821D8916BE000E3A64 /* Build configuration list for PBXNativeTarget "ChangeButtonTests" */;
+			buildPhases = (
+				F4AF5B671D8916BE000E3A64 /* Sources */,
+				F4AF5B681D8916BE000E3A64 /* Frameworks */,
+				F4AF5B691D8916BE000E3A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4AF5B6D1D8916BE000E3A64 /* PBXTargetDependency */,
+			);
+			name = ChangeButtonTests;
+			productName = ChangeButtonTests;
+			productReference = F4AF5B6B1D8916BE000E3A64 /* ChangeButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4AF5B751D8916BE000E3A64 /* ChangeButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4AF5B851D8916BE000E3A64 /* Build configuration list for PBXNativeTarget "ChangeButtonUITests" */;
+			buildPhases = (
+				F4AF5B721D8916BE000E3A64 /* Sources */,
+				F4AF5B731D8916BE000E3A64 /* Frameworks */,
+				F4AF5B741D8916BE000E3A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4AF5B781D8916BE000E3A64 /* PBXTargetDependency */,
+			);
+			name = ChangeButtonUITests;
+			productName = ChangeButtonUITests;
+			productReference = F4AF5B761D8916BE000E3A64 /* ChangeButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4AF5B4A1D8916BE000E3A64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Davis;
+				TargetAttributes = {
+					F4AF5B511D8916BE000E3A64 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					F4AF5B6A1D8916BE000E3A64 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F4AF5B511D8916BE000E3A64;
+					};
+					F4AF5B751D8916BE000E3A64 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F4AF5B511D8916BE000E3A64;
+					};
+				};
+			};
+			buildConfigurationList = F4AF5B4D1D8916BE000E3A64 /* Build configuration list for PBXProject "ChangeButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4AF5B491D8916BE000E3A64;
+			productRefGroup = F4AF5B531D8916BE000E3A64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4AF5B511D8916BE000E3A64 /* ChangeButton */,
+				F4AF5B6A1D8916BE000E3A64 /* ChangeButtonTests */,
+				F4AF5B751D8916BE000E3A64 /* ChangeButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4AF5B501D8916BE000E3A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AF5B651D8916BE000E3A64 /* LaunchScreen.storyboard in Resources */,
+				F4AF5B621D8916BE000E3A64 /* Assets.xcassets in Resources */,
+				F4AF5B601D8916BE000E3A64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AF5B691D8916BE000E3A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AF5B741D8916BE000E3A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4AF5B4E1D8916BE000E3A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AF5B911D893367000E3A64 /* JYButton.m in Sources */,
+				F4AF5B8D1D89253A000E3A64 /* UIView+Awesome.m in Sources */,
+				F4AF5B5D1D8916BE000E3A64 /* ViewController.m in Sources */,
+				F4AF5B5A1D8916BE000E3A64 /* AppDelegate.m in Sources */,
+				F4AF5B571D8916BE000E3A64 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AF5B671D8916BE000E3A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AF5B701D8916BE000E3A64 /* ChangeButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AF5B721D8916BE000E3A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AF5B7B1D8916BE000E3A64 /* ChangeButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4AF5B6D1D8916BE000E3A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4AF5B511D8916BE000E3A64 /* ChangeButton */;
+			targetProxy = F4AF5B6C1D8916BE000E3A64 /* PBXContainerItemProxy */;
+		};
+		F4AF5B781D8916BE000E3A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4AF5B511D8916BE000E3A64 /* ChangeButton */;
+			targetProxy = F4AF5B771D8916BE000E3A64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4AF5B5E1D8916BE000E3A64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4AF5B5F1D8916BE000E3A64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4AF5B631D8916BE000E3A64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4AF5B641D8916BE000E3A64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4AF5B7D1D8916BE000E3A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4AF5B7E1D8916BE000E3A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4AF5B801D8916BE000E3A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChangeButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = connxun.ChangeButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4AF5B811D8916BE000E3A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChangeButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = connxun.ChangeButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4AF5B831D8916BE000E3A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChangeButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = connxun.ChangeButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChangeButton.app/ChangeButton";
+			};
+			name = Debug;
+		};
+		F4AF5B841D8916BE000E3A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChangeButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = connxun.ChangeButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChangeButton.app/ChangeButton";
+			};
+			name = Release;
+		};
+		F4AF5B861D8916BE000E3A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChangeButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = connxun.ChangeButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChangeButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F4AF5B871D8916BE000E3A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChangeButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = connxun.ChangeButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChangeButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4AF5B4D1D8916BE000E3A64 /* Build configuration list for PBXProject "ChangeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AF5B7D1D8916BE000E3A64 /* Debug */,
+				F4AF5B7E1D8916BE000E3A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4AF5B7F1D8916BE000E3A64 /* Build configuration list for PBXNativeTarget "ChangeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AF5B801D8916BE000E3A64 /* Debug */,
+				F4AF5B811D8916BE000E3A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4AF5B821D8916BE000E3A64 /* Build configuration list for PBXNativeTarget "ChangeButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AF5B831D8916BE000E3A64 /* Debug */,
+				F4AF5B841D8916BE000E3A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4AF5B851D8916BE000E3A64 /* Build configuration list for PBXNativeTarget "ChangeButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AF5B861D8916BE000E3A64 /* Debug */,
+				F4AF5B871D8916BE000E3A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4AF5B4A1D8916BE000E3A64 /* Project object */;
+}
